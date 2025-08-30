@@ -57,7 +57,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - uses: Jimver/cuda-toolkit@v0.2.27
+      - uses: Jimver/cuda-toolkit@v0.2.26
         with:
           cuda: 12.${{ inputs.cuda_minor }}.${{ inputs.cuda_patch }}
           use-github-cache: false
